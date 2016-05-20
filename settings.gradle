@@ -1,0 +1,1 @@
+include ':app', ':servicedemo', ':dialogtest', ':logindemo', ':teldemo', ':smsservicedemo', ':smsservicedemo2', ':gpsdemo'

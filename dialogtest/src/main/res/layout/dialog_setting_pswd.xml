@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:background="#ff6666"
+    android:padding="8dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <TextView
+        android:textColor="#000"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="login"
+        />
+
+    <EditText
+        android:textColor="#000"
+        android:hint="请输入密码"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberPassword"
+        android:id="@+id/et_pswd"
+        />
+
+    <EditText
+        android:textColor="#000"
+        android:id="@+id/et_repeak"
+        android:hint="请重复输入密码"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+        <Button
+            android:text="确认密码"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+</LinearLayout>
